@@ -36,7 +36,6 @@ Subcommand | Options | Description | Required
 &nbsp; | `message` | Set the Smart Alarm notification message. | `False`
 &nbsp; | `image` | Set the image that best represent the Smart Alarm. | `False`
 
-![Discord Slash Command alarm Image](images/alarms_edit.png)
 
 
 ## **/credentials**
@@ -58,8 +57,6 @@ Subcommand | Options | Description | Required
 `clear` | &nbsp; | Clear the FCM Credentials. | &nbsp;
 `is_set` | &nbsp; | Is the FCM Credentials already set for this Discord Server? | &nbsp;
 
-![Discord Slash Command credentials Image](images/credentials.png)
-
 
 ## **/customizetimers**
 
@@ -78,14 +75,10 @@ Subcommand | Options | Description | Required
 `oil_rig_crate_unlock_time` | &nbsp; | Get/Set time for Locked Crate on Oil Rig unlocks for connected server, default: 15min (900s). | &nbsp;
 &nbsp; | `seconds` | Seconds till Locked Crate on Oil Rig unlocks. | `False`
 
-![Discord Slash Command customizetimers Image](images/customizetimers.png)
-
 
 ## **/help**
 
 > Display help message.
-
-![Discord Slash Command help Image](images/help.png)
 
 
 ## **/leader**
@@ -95,8 +88,6 @@ Subcommand | Options | Description | Required
 Subcommand | Options | Description | Required
 ---------- | ------- | ----------- | --------
 &nbsp; | `member` | The name of the team member. | `True`
-
-![Discord Slash Command leader Image](images/leader.png)
 
 
 ## **/map**
@@ -109,8 +100,6 @@ Subcommand | Options | Description | Required
 `clean` | &nbsp; | Get the clean map. | &nbsp;
 `monuments`| &nbsp; | Get the map including monument names. | &nbsp;
 `markers` | &nbsp; | Get the map including markers. | &nbsp;
-
-![Discord Slash Command map Image](images/map.png)
 
 
 ## **/market**
@@ -130,8 +119,6 @@ Subcommand | Options | Description | Required
 &nbsp; | `id` | The ID of the item to unsubscribe to. | `False`
 `list` | &nbsp; | Display the subscription list. | &nbsp;
 
-![Discord Slash Command market Image](images/market.png)
-
 
 ## **/players**
 
@@ -141,8 +128,6 @@ Subcommand | Options | Description | Required
 ---------- | ------- | ----------- | --------
 &nbsp; | `name` | The name or part of the name of the player. | `False`
 
-![Discord Slash Command players Image](images/players.png)
-
 
 ## **/reset**
 
@@ -151,8 +136,6 @@ Subcommand | Options | Description | Required
 Subcommand | Options | Description | Required
 ---------- | ------- | ----------- | --------
 `discord` | &nbsp; | Reset discord channels. | &nbsp;
-
-![Discord Slash Command reset Image](images/reset.png)
 
 
 ## **/role**
@@ -164,8 +147,6 @@ Subcommand | Options | Description | Required
 `set` | &nbsp; | Set the role. | &nbsp;
 &nbsp; | `role` | The role rustPlusPlus channels will be visible to. | `True`
 `clear` | &nbsp; | Clear the role (to allow everyone to see the rustPlusPlus channels). | &nbsp;
-
-![Discord Slash Command role Image](images/role.png)
 
 
 ## **/storagemonitors**
@@ -180,8 +161,6 @@ Subcommand | Options | Description | Required
 &nbsp; | `image` | Set the image that best represent the Storage Monitor. | `False`
 `recycle` | &nbsp; | Calculate the resources gained from recycling the content of a Storage Monitor. | &nbsp;
 &nbsp; | `id` | The ID of the Storage Monitor. | `True`
-
-![Discord Slash Command storagemonitor Image](images/storagemonitor.png)
 
 
 ## **/switch**
@@ -208,8 +187,6 @@ Subcommand | Options | Description | Required
 &nbsp; | `group_name` | The name of the Group. | `True`
 &nbsp; | `switch_id` | The Smart Switch ID. | `True`
 
-![Discord Slash Command switch Image](images/switch.png)
-
 
 ## **/tracker**
 
@@ -226,8 +203,6 @@ Subcommand | Options | Description | Required
 `remove_player` | &nbsp; | Remove a player from the Battlemetrics Player Tracker. | &nbsp;
 &nbsp; | `tracker_name` | The name of the Tracker. | `True`
 &nbsp; | `steam_id` | The steam ID for the player. | `True`
-
-![Discord Slash Command tracker Image](images/tracker.png)
 
 
 
@@ -267,15 +242,11 @@ In-Game Command | Description
 > **Get the currently afk players in your team.** Definition of AFK for this command is inactivity (No change in XY-coordinate) for more than 5 minutes.
 <br>Command: `!afk`
 
-![In-Game Command afk Image](images/afk_ingame.png)
-
 
 ## **alive**
 
 > **Get the player with the longest time alive.**
 <br>Command: `!alive`
-
-![In-Game Command alive Image](images/alive_ingame.png)
 
 
 ## **bradley**
@@ -283,15 +254,11 @@ In-Game Command | Description
 > **Get information about Bradley APC (Time till respawn, time since last destroyed).**
 <br>Command: `!bradley`
 
-![In-Game Command bradley Image](images/bradley_ingame.png)
-
 
 ## **cargo**
 
 > **Get information about CargoShip (Location, time till enters egress stage, current crates, time since last on map).**
 <br>Command: `!cargo`
-
-![In-Game Command cargo Image](images/cargo_ingame.png)
 
 
 ## **chinook**
@@ -299,15 +266,11 @@ In-Game Command | Description
 > **Get information about Chinook 47 (Location, time since last on map).**
 <br>Command: `!chinook`
 
-![In-Game Command chinook Image](images/chinook_ingame.png)
-
 
 ## **crate**
 
 > **Get information about Locked Crate dropped by Chinook47 (Location, time till despawn, time since last dropped).**
 <br>Command: `!crate`
-
-![In-Game Command crate Image](images/crate_ingame.png)
 
 
 ## **heli**
@@ -315,15 +278,11 @@ In-Game Command | Description
 > **Get information about Patrol Helicopter (Location, time since last downed, time since last on map).**
 <br>Command: `!heli`
 
-![In-Game Command heli Image](images/heli_ingame.png)
-
 
 ## **large**
 
 > **Get information about Large Oil Rig (Time till crate unlocks, time since last trigger).**
 <br>Command: `!large`
-
-![In-Game Command large Image](images/large_ingame.png)
 
 
 ## **leader**
@@ -334,8 +293,6 @@ In-Game Command | Description
 Subcommand | Description | Required
 ---------- | ----------- | --------
 `<team_member_name>` | The name or part of the name of a team member (`!leader <name>`). | `False`
-
-![In-Game Command leader Image](images/leader_ingame.png)
 
 
 ## **marker**
@@ -349,15 +306,11 @@ Subcommand | Description | Required
 `list` | List all registered custom markers for this server with respective ID (`!marker list`). | `False`
 `<marker_name>` | Calling with the name of the marker will let you navigate to that marker (`!marker <name>`). | `False`
 
-![In-Game Command marker Image](images/marker_ingame.png)
-
 
 ## **mute**
 
 > **Mute the bot from the In-Game Team Chat.** This will mute everything the bot would normally say in Team Chat such as command response, event notifications, timers, Smart Device notifications.
 <br>Command: `!mute`
-
-![In-Game Command mute Image](images/mute_ingame.png)
 
 
 ## **note/notes**
@@ -368,15 +321,11 @@ Subcommand | Description | Required
 ---------- | ----------- | --------
 `remove` | Remove a note (`!note remove <id>`). | `False`
 
-![In-Game Command notes Image](images/notes_ingame.png)
-
 
 ## **offline**
 
 > **Get the currently offline players in your team.**
 <br>Command: `!offline`
-
-![In-Game Command offline Image](images/offline_ingame.png)
 
 
 ## **online**
@@ -384,30 +333,20 @@ Subcommand | Description | Required
 > **Get the currently online players in your team.**
 <br>Command: `!online`
 
-![In-Game Command online Image](images/online_ingame.png)
-
 
 ## **player/players**
 
 > **Get the names and playtime of the currently online players on the server (Based on Battlemetrics).** To get all the currently online players on the server run `!players`. To get the information from a certain player run `!player <name or part of name>`.
-
-![In-Game Command players Image](images/players_ingame.png)
-![In-Game Command player Image](images/player_ingame.png)
-
 
 ## **pop**
 
 > **Get the current population of the server including queue size and max population.**
 <br>Command: `!pop`
 
-![In-Game Command pop Image](images/pop_ingame.png)
-
 
 ## **prox**
 
 > **Get the distance to the three closest teammates.** To get the three closest teammates run `!prox`. To get the distance to a team member run `!prox <name or part of name>`.
-
-![In-Game Command prox Image](images/prox_ingame.png)
 
 
 ## **small**
@@ -415,15 +354,11 @@ Subcommand | Description | Required
 > **Get information about Small Oil Rig (Time till crate unlocks, time since last trigger).**
 <br>Command: `!small`
 
-![In-Game Command small Image](images/small_ingame.png)
-
 
 ## **time**
 
 > **Get the current time In-Game and time till day/night.**
 <br>Command: `!time`
-
-![In-Game Command time Image](images/time_ingame.png)
 
 
 ## **timer**
@@ -437,15 +372,11 @@ Subcommand | Description | Required
 `remove` | Remove a custom timer (`!timer remove <id>`). | `False`
 `list` | List all registered custom timers (`!timer list`). | `False`
 
-![In-Game Command timer Image](images/timer_ingame.png)
-
 
 ## **tts**
 
 > **Send a Text-To-Speech message to the Discord teamchat channel.** To execute a Text-To-Speech command run `!tts <text>`.
 <br>Command: `!tts <text>`
-
-![In-Game Command tts Image](images/tts_ingame.png)
 
 
 ## **unmute**
@@ -453,7 +384,6 @@ Subcommand | Description | Required
 > **Unmute the bot from the In-Game Team Chat.**
 <br>Command: `!unmute`
 
-![In-Game Command unmute Image](images/unmute_ingame.png)
 
 
 ## **upkeep**
@@ -461,12 +391,8 @@ Subcommand | Description | Required
 > **Get the upkeep time of all connected tool cupboard monitors.**
 <br>Command: `!upkeep`
 
-![In-Game Command upkeep Image](images/upkeep_ingame.png)
-
 
 ## **wipe**
 
 > **Get the time since it was wiped.**
 <br>Command: `!wipe`
-
-![In-Game Command wipe Image](images/wipe_ingame.png)
